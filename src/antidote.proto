@@ -42,12 +42,10 @@ message FpbGetSetReq {
     required bytes key = 1;
 }
 
-
 // Get set response
 message FpbGetSetResp {
     required bytes value = 1;
 }
-
 
 //Operation possible inside atomic update transaction
 message FpbAtomicUpdateTxnOp {
@@ -94,3 +92,12 @@ message FpbSnapshotReadTxnResp {
 	repeated FpbSnapshotReadTxnRespValue results = 3;
 }
 
+// riak_dt_lwwreg read request
+message FpbGetRegReq {
+	required bytes key = 1;
+}
+
+// riak_dt_lwwreg read response
+message FpbGetRegResp {
+	required bytes value = 1;
+}

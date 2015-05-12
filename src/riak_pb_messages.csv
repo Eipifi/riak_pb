@@ -63,6 +63,8 @@
 106,FpbSnapshotReadTxnOp,antidote
 107,FpbSnapshotReadTxnRespValue,antidote
 108,FpbSnapshotReadTxnResp,antidote
+109,FpbGetRegReq,antidote
+110,FpbGetRegResp,antidote
 253,RpbAuthReq,riak
 254,RpbAuthResp,riak
 255,RpbStartTls,riak
