@@ -101,3 +101,9 @@ message FpbGetRegReq {
 message FpbGetRegResp {
 	required bytes value = 1;
 }
+
+// riak_dt_lwwreg write request (response: FpbOperationResp)
+message FpbUpdateRegReq {
+	required bytes key = 1;
+	required bytes value = 2;
+}
